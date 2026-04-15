@@ -1,0 +1,12 @@
+{
+  "name": "opendev-sdk",
+  "version": "1.0.0",
+  "main": "opendev-sdk.mjs",
+  "devDependencies": {},
+  "dependencies": {
+    "ws": "8.18.3"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

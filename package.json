@@ -1,0 +1,57 @@
+{
+  "name": "@opendev/sdk",
+  "version": "2.0.0",
+  "description": "OpenDev SDK for JavaScript/TypeScript - A minimalist lifestyle application SDK built with Kotlin/Wasm",
+  "main": "kotlin/opendev-sdk.js",
+  "module": "kotlin/opendev-sdk.mjs",
+  "types": "kotlin/opendev-sdk.d.ts",
+  "files": [
+    "kotlin/**/*",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "opendev",
+    "sdk",
+    "kotlin-wasm",
+    "kotlin-multiplatform",
+    "wasm",
+    "webassembly",
+    "lifestyle",
+    "minimalist",
+    "authentication",
+    "payment"
+  ],
+  "author": {
+    "name": "OpenDev Team",
+    "email": "contact@zinben.com",
+    "url": "https://github.com/zinben-opendev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinben-opendev/opendev-web-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zinben-opendev/opendev-web-sdk/issues"
+  },
+  "homepage": "https://github.com/zinben-opendev/opendev-web-sdk#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "echo 'Build from Gradle'",
+    "test": "echo 'Test from Gradle'",
+    "prepublishOnly": "echo 'Ready to publish'"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
