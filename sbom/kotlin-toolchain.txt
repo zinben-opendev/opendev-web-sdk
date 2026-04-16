@@ -1,0 +1,2 @@
+kotlin=2.3.10
+androidGradlePlugin=9.1.0

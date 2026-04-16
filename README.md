@@ -1,6 +1,8 @@
 # @opendev/sdk
 
-> OpenDev SDK for JavaScript/TypeScript - A minimalist lifestyle application SDK built with Kotlin/Wasm
+**Language:** English (default) · [简体中文](README.zh-CN.md)
+
+> OpenDev SDK for JavaScript/TypeScript — Kotlin/Wasm multiplatform client (authentication, payments, storage). **Default documentation language is English.**
 
 [![npm version](https://badge.fury.io/js/%40opendev%2Fsdk.svg)](https://badge.fury.io/js/%40opendev%2Fsdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -16,6 +18,8 @@
 
 ## Installation
 
+### From npm registry
+
 ```bash
 npm install @opendev/sdk
 # or
@@ -23,6 +27,16 @@ yarn add @opendev/sdk
 # or
 pnpm add @opendev/sdk
 ```
+
+### From GitHub (prebuilt `kotlin/` binaries on tag)
+
+Pin a release tag (example `v2.0.0`):
+
+```bash
+npm install github:zinben-opendev/opendev-web-sdk#v2.0.0
+```
+
+See **`Docs/01-SDK/SDK_GITHUB_BINARIES_DISTRIBUTION.md`** in the Walknote monorepo for the full distribution process.
 
 ## Quick Start
 

@@ -1,13 +1,14 @@
 {
   "name": "@opendev/sdk",
   "version": "2.0.0",
-  "description": "OpenDev SDK for JavaScript/TypeScript - A minimalist lifestyle application SDK built with Kotlin/Wasm",
+  "description": "OpenDev SDK for JavaScript/TypeScript — Kotlin/Wasm multiplatform client (auth, payments, storage). Public API surface is published TypeScript declarations under kotlin/.",
   "main": "kotlin/opendev-sdk.js",
   "module": "kotlin/opendev-sdk.mjs",
   "types": "kotlin/opendev-sdk.d.ts",
   "files": [
     "kotlin/**/*",
     "README.md",
+    "README.zh-CN.md",
     "LICENSE",
     "CHANGELOG.md"
   ],
@@ -18,8 +19,6 @@
     "kotlin-multiplatform",
     "wasm",
     "webassembly",
-    "lifestyle",
-    "minimalist",
     "authentication",
     "payment"
   ],
