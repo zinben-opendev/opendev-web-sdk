@@ -1,8 +1,16 @@
 # @opendev/sdk
 
-**语言说明：** 默认以英文 [`README.md`](README.md) 为准；本页为简体中文补充。
+**文档语言：** 默认以英文 [`README.md`](README.md) 为准；本页为简体中文补充。
 
 > OpenDev SDK 面向 JavaScript/TypeScript，基于 **Kotlin/Wasm** 的客户端（认证、支付、存储等）。**默认文档语言为英文。**
+
+## 技术栈与语言
+
+| 方面 | 说明 |
+|------|------|
+| **SDK 源码实现**（不在本包源码树内） | **Kotlin Multiplatform**，主要为 **`wasmJs`**，编译为 **WebAssembly**（`.wasm`）及 **JavaScript** 胶水（`.mjs` / `.js`）。 |
+| **发布产物** | **`.wasm`**、**`.mjs`**、**`.d.ts`**（TypeScript 声明）及 **`package.json`** 的 `main` / `module` / `types`。 |
+| **集成方应用** | 浏览器中的 **TypeScript** 或 **JavaScript**，需支持 **WebAssembly**。 |
 
 ## 从 GitHub 安装（无 npm registry 时）
 

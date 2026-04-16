@@ -1,8 +1,16 @@
 # @opendev/sdk
 
-**Language:** English (default) · [简体中文](README.zh-CN.md)
+**Documentation:** English (default) · [简体中文](README.zh-CN.md)
 
 > OpenDev SDK for JavaScript/TypeScript — Kotlin/Wasm multiplatform client (authentication, payments, storage). **Default documentation language is English.**
+
+## Technical stack (languages)
+
+| Aspect | What this package / repo contains |
+|--------|-----------------------------------|
+| **SDK implementation (source, not in this repo)** | **Kotlin Multiplatform** — primarily **`wasmJs`** output compiled to **WebAssembly** (`.wasm`) with **JavaScript** module glue (`.mjs` / `.js`). |
+| **Shipped artifacts** | **`.wasm`**, **`.mjs`**, generated **`.d.ts`** (TypeScript declarations), and **`package.json`** entry points (`main` / `module` / `types`). |
+| **Typical consumer apps** | **TypeScript** or **JavaScript** in browsers with **WebAssembly** support. |
 
 [![npm version](https://badge.fury.io/js/%40opendev%2Fsdk.svg)](https://badge.fury.io/js/%40opendev%2Fsdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

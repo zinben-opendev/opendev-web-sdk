@@ -1,6 +1,6 @@
 {
   "name": "@opendev/sdk",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "OpenDev SDK for JavaScript/TypeScript — Kotlin/Wasm multiplatform client (auth, payments, storage). Public API surface is published TypeScript declarations under kotlin/.",
   "main": "kotlin/opendev-sdk.js",
   "module": "kotlin/opendev-sdk.mjs",
