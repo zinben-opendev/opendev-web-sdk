@@ -161,6 +161,14 @@ enum LoginMethod {
 }
 ```
 
+## Security
+
+When consuming from the **GitHub** mirror (`opendev-web-sdk`), see **[SECURITY.md](SECURITY.md)** in that repository for coordinated disclosure (not public issues for undisclosed vulnerabilities).
+
+## Contributing
+
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** on the GitHub mirror — prebuilt **`kotlin/`** artifacts only; SDK source changes go through the upstream release process.
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for release notes.

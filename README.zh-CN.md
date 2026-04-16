@@ -32,6 +32,14 @@ npm install github:zinben-opendev/opendev-web-sdk#v2.0.0
 
 请参阅英文 [`README.md`](README.md) 中的 `initialize` / `login` 示例与 TypeScript 类型说明。
 
+## 安全
+
+从 **GitHub** 镜像（`opendev-web-sdk`）拉取时，请阅读仓库内 **[SECURITY.md](SECURITY.md)** 做协调披露（未公开漏洞勿发公开 Issue）。
+
+## 贡献
+
+GitHub 镜像内 **[CONTRIBUTING.md](CONTRIBUTING.md)** — 仅 **预构建 `kotlin/`** 产物；SDK 行为变更走上游发版流程。
+
 ## 从 `@walknote.dev/sdk` 迁移
 
 若曾使用旧 scope，请卸载并改用 `@opendev/sdk` 或上述 **GitHub** 依赖形式；import 路径改为 `@opendev/sdk`。（`@walknote.dev` 为历史 npm scope，小写；对外应用品牌仍为 **Walknote**。）
