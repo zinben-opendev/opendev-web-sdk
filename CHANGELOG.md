@@ -5,6 +5,29 @@ All notable changes to `@opendev/sdk` will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.6] - 2026-05-18
+
+### Fixed
+
+- **Payment mall**: format server prices for `CNY` / `JPY` with correct decimals (e.g. `CNY 0.12` instead of `CNY 12` when the API returns minor-unit-aligned amounts).
+- **Purchasability**: honor optional `paymentEnabled` from `GET /v1/payment/products` before falling back to `product_tier` / `one_time` heuristics.
+
+### Changed
+
+- `PaymentProductDTO` includes optional `paymentEnabled` (Kotlin / Wasm consumers).
+- Prebuilt artifacts published to GitHub dist repos: `opendev-android-sdk`, `opendev-ios-sdk`, `opendev-desktop-sdk`, `opendev-web-sdk` tag **`v2.0.6`**.
+
+### Notes
+
+- Requires OpenDev backend that exposes enabled tiers as `payment_product` with canonical tier prices (webapp deploy **≥ 20260518**).
+
+## [2.0.5] - 2026-05-17
+
+### Added
+
+- Subscription iteration (W1–W8): entitlements / subscriptions HTTP APIs, `checkout/init` idempotency, strict IAP verify/finish, mall subscription UI aligned with OpenDev entitlements.
+- GitHub dist tag **`v2.0.5`** (npm package version).
+
 ## [2.0.0] - 2026-04-14
 
 ### Changed
